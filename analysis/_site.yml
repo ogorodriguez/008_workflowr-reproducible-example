@@ -1,4 +1,4 @@
-name: 008_workflowr-reproducible-example
+name: My Workflowr Reproducible Example
 output_dir: ../docs
 navbar:
   title: 008_workflowr-reproducible-example
@@ -9,6 +9,8 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  - text: Teeth Analysis
+    href: teeth.html
   right:
   - icon: fab fa-github
     text: Source code
