@@ -9,11 +9,18 @@ editor_options:
 
 ## Introduction
 
+The dataset teeth will be used to do this example analysis
+
+## Data import
+
 ```{r import-teeth}
 teeth <- read.csv("data/teeth.csv", row.names = 1)
 head(teeth)
 
 ```
+
+## Graph the data
+
 
 ```{r boxplots}
 boxplot(len ~ dose, data = teeth)
@@ -21,6 +28,8 @@ boxplot(len ~ supp, data = teeth)
 boxplot(len ~ dose + supp, data = teeth)
 
 ```
+
+## Do analysis: permutations
 
 ```{r permute}
 # Oberved difference in teeht lenght due to supplement method
